@@ -11,24 +11,28 @@ export const HEADER_LIST = [
 
 export const PRODUCT_DATA = [
     {
+        id: 'coffee',
         img: Coffee,
         title: 'Coffee',
         description: 'Rich and aromatic brew.',
         price: 'Price: 399'
     },
     {
+        id: 'green-tea',
         img: GreenTea,
         title: 'Green Tea',
         description: 'Green tea: where calm meets caffeine',
         price: 'Price: 199'
     },
     {
+        id: 'iced-coffee',
         img: IcedCoffee,
         title: 'Iced Coffee',
         description: 'Sweet & Salty Bliss in a Cup',
         price: 'Price: 199'
     },
-]
+];
+
 export const inputGroups = [
     [
         { type: "text", placeholder: "First Name" },
