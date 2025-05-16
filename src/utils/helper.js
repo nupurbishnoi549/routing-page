@@ -12,21 +12,21 @@ export const navLinks = [
 
 export const PRODUCT_DATA = [
     {
-        id: 'coffee',
+        id: '1',
         img: Coffee,
         title: 'Coffee',
         description: 'Rich and aromatic brew.',
         price: 'Price: 399'
     },
     {
-        id: 'green-tea',
+        id: '2',
         img: GreenTea,
         title: 'Green Tea',
         description: 'Green tea: where calm meets caffeine',
         price: 'Price: 199'
     },
     {
-        id: 'iced-coffee',
+        id: '3',
         img: IcedCoffee,
         title: 'Iced Coffee',
         description: 'Sweet & Salty Bliss in a Cup',

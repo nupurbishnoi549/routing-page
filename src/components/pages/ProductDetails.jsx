@@ -10,7 +10,7 @@ const ProductDetails = () => {
     const product = PRODUCT_DATA.find(item => item.id === productId);
 
     if (!product) {
-        return <div className="text-center text-2xl font-bold mt-10">Product not found</div>;
+        return <div className="text-center text-4xl font-bold mt-15">Product not found</div>;
     }
 
     return (
