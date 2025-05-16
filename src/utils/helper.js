@@ -2,12 +2,13 @@ import Coffee from '../assets/images/webp/coffee.webp'
 import GreenTea from '../assets/images/webp/green-tea.webp'
 import IcedCoffee from '../assets/images/webp/starbucks.webp'
 
-export const HEADER_LIST = [
-    { title: 'Home', link: '#home' },
-    { title: 'About', link: '#about' },
-    { title: 'Product', link: '#product' },
-    { title: 'Contact', link: '#contact' },
+export const navLinks = [
+    { to: "/", name: "Home" },
+    { to: "/about", name: "About" },
+    { to: "/product", name: "Product" },
+    { to: "/contact", name: "Contact" },
 ];
+
 
 export const PRODUCT_DATA = [
     {
