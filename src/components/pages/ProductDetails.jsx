@@ -1,6 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { PRODUCT_DATA } from '../../utils/helper';
+import CustomBtn from '../common/CustomButton';
 
 const ProductDetails = () => {
     const { productId } = useParams();
@@ -17,6 +19,11 @@ const ProductDetails = () => {
             <h2 className="text-4xl font-bold mb-2">{product.title}</h2>
             <p className="text-lg mb-2">{product.description}</p>
             <p className="text-2xl font-semibold">{product.price}</p>
+            <div className='flex justify-center'>
+                <Link to="/product">
+                    <CustomBtn text="Back to product" myClass="mt-4" />
+                </Link>
+          </div>
         </div>
     );
 };
