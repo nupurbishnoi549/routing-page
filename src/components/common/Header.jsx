@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../../assets/images/webp/dummy-logo.webp';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import CustomBtn from './CustomButton';
 import { navLinks } from '../../utils/helper'
 
@@ -57,8 +57,6 @@ function Header() {
                     <CustomBtn text="Get Started" />
                 </div>
             )}
-
-            <Outlet />
         </header>
     );
 }

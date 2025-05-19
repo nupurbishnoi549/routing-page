@@ -1,16 +1,3 @@
-// import React from 'react'
-
-// const CustomButton = ({ text, myClass }) => {
-//     return (
-//         // <button className={`${myClass} font-bold text-lg py-3 px-5`}>{CustomButton}
-//         // </button>
-//         <button className={`font-bold text-lg py-3 px-5 ${myClass}`}>
-//             {text}
-//         </button>
-//     )
-// }
-
-// export default CustomButton
 import React from 'react'
 
 const CustomBtn = ({ text, myClass }) => {
